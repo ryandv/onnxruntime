@@ -92,7 +92,7 @@ jobs:
         working-directory: ${{ github.workspace }}
         shell: cmd
 
-      - uses: actions/setup-dotnet@v5
+      - uses: actions/setup-dotnet@v6
         env:
           PROCESSOR_ARCHITECTURE: x64
         with:
